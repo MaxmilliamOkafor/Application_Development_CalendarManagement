@@ -1,0 +1,59 @@
+
+.monthPre{
+ color: gray;
+ text-align: center;
+}
+.monthNow{
+ color: blue;
+ text-align: center;
+}
+.dayNow{
+ border: 2px solid pink;
+ color: #FF0000;
+ text-align: center;
+}
+.calendar td{
+ htmlContent: 2px;
+ width: 40px;
+}
+
+.monthNow th{
+ background-color: #000000;
+ color: #FFFFFF;
+ text-align: center;
+}
+.dayNames{
+ background: #0FF000;
+ color: #FFFFFF;
+ text-align: center;
+}
+
+.result{
+	position:inherit;
+	margin-left:480px;
+	margin-top:-180px;
+	padding:0px;
+	height:1000px;
+	width:500px;
+	
+}
+.result a{
+    display: block;
+    color: #000;
+    padding: 100px 100px;
+    text-decoration: none	
+	background-color:pink;
+}
+
+.result img {
+	width:250px;
+	height:auto;	
+}
+
+.result a:hover{
+	background-color:#e6e6e6;
+	color:black;
+	margin:0px;
+	width:500px;
+ }
+

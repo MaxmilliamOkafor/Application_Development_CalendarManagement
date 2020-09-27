@@ -1,0 +1,306 @@
+/*Global styles*/
+body {
+    color: white;
+    background: white;
+    margin: 0;
+    width: 100%;
+}
+
+h2{
+	visibility:hidden;
+}
+/*Main header*/
+#page_header {
+    height: 90px;
+    background: #233792;
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0 5px 20px 1px #0D232C;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav { 
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+.Profile{
+	
+	position:relative;
+	margin-top:130px;
+	margin-left:130px;
+	
+	width:150px;
+	text-align:center;
+    letter-spacing: 5px;
+	background:pink;
+	height:150px
+	
+}
+
+.description{
+	
+	position:relative;
+	margin-top:540px;
+	margin-left:500px;
+	
+	width:700px;
+	text-align:center;
+    letter-spacing: 5px;
+	background:blue;
+	height:1000px;
+	
+}
+
+.bio{
+	width:100px;
+	height:100px;
+	background-color:red;
+}
+.result1{
+	
+	padding:0px;
+	height:1000px;
+	width:1050px;
+}
+.result1 a{
+    display: block;
+    color: #000;
+    padding: 100px 100px;
+    text-decoration: none	
+}
+.result{
+	margin-left:300px;
+	margin-top:-1015px;
+	padding:0px;
+	
+	height:1000px;
+	width:1050px;
+}
+.result a{
+    display: block;
+    color: #000;
+    padding: 100px 100px;
+    text-decoration: none	
+}
+
+.result img {
+	
+	width:250px;
+	height:auto;
+	
+}
+
+.result a:hover{
+	background-color:#e6e6e6;
+	color:black;
+	margin:0px;
+	width:850px;
+	
+	
+}
+
+.filt{
+	position:relative;
+	padding-top:130px;
+	margin:0px;
+	width:300px;
+	text-align:center;
+    letter-spacing: 5px;
+	background-color: #ccccff;
+	height:1000px;
+	
+	   
+}
+
+
+
+
+
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    position: inherit;
+}   
+
+form#browse {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+#myDIV {
+    width: 270px;
+    padding: 0px;
+	margin:10px;
+    text-align: center;
+    background-color: white;  
+	color:black;
+}
+
+#myDIV2 {
+    width: 270px;
+    padding: 0px;
+	margin:10px;
+    text-align: center;
+    background-color: white; 
+	color:black;
+}
+
+#myDIV3 {
+    width: 270px;
+    padding: 0px;
+	margin:10px;
+    text-align: center;
+    background-color: white; 
+	color:black;
+}
+#myDIV4 {
+    width: 270px;
+    padding: 0px;
+	margin:10px;
+    text-align: center;
+    background-color: white; 
+	color:black;
+}
+
+#browse input[type="search"] {
+    width: 250px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+#browse input[type="submit"]{
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url("../images/sprite.png") no-repeat -43px 0;
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    margin: 8px 0 0;
+    border: none;
+    position: absolute;
+    right: 5%;
+}
+
+select {
+    color: black;
+    width: 100px;
+}
+
+#logo {
+    position: absolute; 
+    left: 20%;
+    top: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+#profilepic{
+	
+   
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+/*slide show*/
+.slideshow_container {
+    max-width: 100px;
+    position: relative;
+    margin: 0 auto;
+    top: 10px;
+    border: 10px solid black;
+}
+
+.profile{
+	max-width:200px;
+	position:relative;
+	background-color:#233792;
+	margin-top:100px;
+}
+.filter_container{
+	max-width:200px;
+	position:relative;
+	background-color:#233792;
+	margin-top:100px;
+}
+
+.myslides img {
+    width: 100px;
+	height:500px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba( 0, 0, 0, 0.8 );
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.number_text {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from { opacity: .4 }
+    to { opacity: 1 }
+}
+
+@keyframes fade {
+    from { opacity: .4 }
+    to { opacity: 1 }
+}
+
+.

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="A books trading website for students">
+		<meta name="viewport" content="width=device-with, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" href="assets/images/marcus_play_book.ico">
+		<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="assets/css/logstyle.css">
+
+		<style>
+			.error {
+				color: red;
+				font-family: arial;
+				font-size: 24px;
+			}
+		</style>
+
+		<title>Login-Calander</title>
+	</head>
+
+	<body>
+		
+		<div class="container">
+		<img src="assets/images/user.png">
+
+		<form action="login.php" method="post">
+			<div class="form-input">
+				<input type="text" name="username" value="" placeholder="Enter username">
+			</div>
+			<div class="form-input">
+				<input type="password" name="password" value="" placeholder="Enter password">
+			</div>
+			
+			<input type="submit" name="Submit" value="Login" class="btn-login"><br>
+				<a href="forgot.php">Forgot your password?</a><br>
+				<a href="register.php">Sign up</a>
+		</form>
+		</div>
+	</body>
+</html>
